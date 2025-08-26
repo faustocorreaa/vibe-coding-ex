@@ -1,0 +1,23 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Optional dependencies for production
+gunicorn==21.2.0
+
+# For future database support
+# sqlalchemy==2.0.23
+# alembic==1.13.1
+
+# For future authentication
+# python-jose[cryptography]==3.3.0
+# passlib[bcrypt]==1.7.4
+# python-multipart==0.0.6
+
+# For HTTP client (future external API calls)
+httpx==0.25.2
+
+# For environment variable management
+python-dotenv==1.0.0
